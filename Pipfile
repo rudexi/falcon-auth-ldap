@@ -1,0 +1,12 @@
+[requires]
+python-version = "3"
+
+[packages]
+falcon-auth = "*"
+ldap3 = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-cov = "*"
+pytest-mock = "*"
+pylint = "*"
