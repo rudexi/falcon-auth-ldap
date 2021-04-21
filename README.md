@@ -26,7 +26,7 @@ ldap_conf = {
 handler = falcon.API(middleware=[FalconAuthMiddleware(LDAPAuthBackend(**ldap_conf)))
 ```
 
-See [examples ](./examples/)} for more detailed example.
+See [examples ](./examples/) for more detailed example.
 
 # Manual testing
 
